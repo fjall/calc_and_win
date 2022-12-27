@@ -37,7 +37,7 @@ def get_user_attack():
         attack_value = attacks_types[input_attack]()
         print(
             f'Количество очков твоей атаки: {attack_value}.')
-        total += attack_value
+        total += 1
     return total
 
 
